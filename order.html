@@ -10,8 +10,8 @@
     <link rel="icon" href="assets/images/logo.png">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:150,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
-    <title>Haqqımızda</title>
+    <script src="https://kit.fontawesome.com/52913d557e.js" crossorigin="anonymous"></script>
+    <title>Sifariş et</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
-     <header class="">
+    <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" width="150px"></a>
@@ -51,12 +51,13 @@
                     </a>
                 </li> 
 
-                <li class="nav-item"><a class="nav-link" href="xidmetler.html">Xidmətlər</a></li>
-                <li class="nav-item active"><a class="nav-link" href="about.html">Haqqımızda</a></li>
+                <li class="nav-item "><a class="nav-link" href="xidmetler.html">Xidmətlər</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Haqqımızda</a></li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link" href="order.html">Sifariş Et</a>
-                  
+                    
+                   
                 </li>
 
                 
@@ -74,25 +75,80 @@
           <div class="col-md-12">
             <div class="text-content">
               
-              <h2>Haqqımızda</h2>
+              <h2>Sifariş Et</h2>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-   <p><em>Neoventiv şirkəti</em></p>
-   <p>Avtobusların kirayə verilməsi və sərnişin daşınmalarına korporativ sifarişlərin qəbulu bizim nəqliyyat şirkətin əsas fəaliyyət istiqamətləridir. Şirkətimiz avtobusların, mikroavtobusların və minik maşınlarının gündəlik, həftəlik, aylıq və uzun müddətli icarəsini təşkil edir. Şirkətimizin xidmətlərindən bir çox dövlət qurumları, hökümət və qeyri-hökümət təşkilatları, həmçinin xeyli sayda şirkətlər yararlanır. Geniş seçim imkanıyla avtobusların icarə və sifarişi - razılıq şərtlərinə uyğun olaraq zəmanətli, keyfiyyətli və operativ xidmətin nümunəsidir.
-1-4 yer: Sedan Standart Klass<br>
-4-11 yer: Mercedec Vito, Hyundai H-1.<br>
-11-20 yer: Mercedes Sprinter, Volkswagen Crafter.<br>
-21+7 yer: Hyundai County<br>
-24+9 yer: Hyundai County, Mitsubishi Rosa<br>
-27-30 yer: Otoyol, Otocar, İsuzu.<br>
-41-47 yer: Mercedes 0303, Mercedes 0403, Setra.<br>
-48-55 yer: Mercedes Travego, Setra. MAN.<br>
-COVİD-19 la mübarizə tədbiri olaraq nəqliyyat vasitələri hər gün dezinfeksiya olunur.</p>
+   <div class="send-message">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Sifariş Edin</h2>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="contact-form">
+              <form id="contact" action="mailto:hasanov2019@gmail.com" method="GET" >
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                        Adiniz
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Ad, Soyad" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                        Telefon
+                      <input name="email" type="text" class="form-control" id="email" placeholder="050 000 00 00" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                        Tarix
+                      <input name="date" type="date" class="form-control" id="name"  required="">
+                    </fieldset>
+                  </div>
+                 <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                        Haradan
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Bakı" required="">
+                    </fieldset>
+                  </div>
+                   <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                        Haraya
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Tovuz" required="">
+                    </fieldset>
+                  </div>
+                   <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                        Sərnişin sayı
+                      <input name="name" type="text" class="form-control" id="name" placeholder="1-40" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Mesajınız..." required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="filled-button">Göndər</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+     
     <footer>
        <div class="footer">
 		<div class="inner-footer">
@@ -130,16 +186,17 @@ COVİD-19 la mübarizə tədbiri olaraq nəqliyyat vasitələri hər gün dezinf
 				<div class="border"></div>
 				<ul>
 					<li><i class="fa fa-map-marker" aria-hidden="true"></i>Bakı şəhəri</li>
-					<li><i class="fa fa-phone" aria-hidden="true"></i>1234567890</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>(+99450)4063394</li>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i>neoventive@gmail.com</li>
 				</ul>
 				
 			</div>
 			<div class="social-media">
-				<a href="https://www.facebook.com/sprinter_aze-104754285259145/?ref=pages_you_manage" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/sprinter_aze-104754285259145/?ref=pages_you_manage" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					<a href="https://forms.gle/qrZBUkxxWYhcWB7Z8" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
 					<a href="https://www.instagram.com/sprinter_avtobus/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/company/neoventiv-llc" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
 		</div>
 	
 	</div>

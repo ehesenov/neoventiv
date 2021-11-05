@@ -225,7 +225,7 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: -30px;
+	margin-top: -60px;
 	outline: none;
 }
 .navbar .navbar-brand h2 {
@@ -250,6 +250,7 @@ header .navbar {
 }
 .navbar .navbar-nav .nav-item {
 	margin: 0px 15px;
+	
 }
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
@@ -258,7 +259,7 @@ header .navbar {
 	letter-spacing: 0.5px;
 	color: black;
 	transition: all 0.5s;
-	margin-top: -20px;
+	margin-top: -45px;
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .active>.nav-link,
@@ -660,8 +661,8 @@ header .navbar {
 
 .products ul.pages li a:hover,
 .products ul.pages li.active a {
-	background-color: #f33f3f;
-	border-color: #f33f3f;
+	background-color: #0c1d3b;
+	border-color: #0c1d3b;
 	color: #fff;
 }
 
@@ -905,7 +906,7 @@ header .navbar {
 }
 
 .contact-form button.filled-button {
-	background-color: #f33f3f;
+	background-color: #0c1d3b;
 	color: #fff;
 	font-size: 14px;
 	text-transform: capitalize;
@@ -1045,6 +1046,7 @@ header .navbar {
 		position: absolute;
 		left: 30px;
 		top: 32px;
+		margin-top: -70px;
 	}
 	.navbar .navbar-brand {
 		width: auto;
@@ -1069,7 +1071,7 @@ header .navbar {
 		border-bottom: none;
 	}
 	.navbar .navbar-nav a.nav-link {
-		padding: 15px 0px;
+		padding: 50px 0px;
 		color: #1e1e1e!important;
 	}
 	.navbar .navbar-nav .nav-link:hover,
