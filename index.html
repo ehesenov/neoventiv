@@ -20,7 +20,10 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+        
+ 
 
+       
   </head>
 
   <body>
@@ -36,6 +39,7 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
+    
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -375,9 +379,8 @@
       </div>
     </div>
     
-    <footer>
-       
-        <div class="footer">
+     <footer>
+       <div class="footer">
 		<div class="inner-footer">
 
 			<div class="footer-items">
@@ -398,7 +401,18 @@
 					<a href=""><li>Minivan</li></a>
 				</ul>
 			</div>
-
+       <!--
+      	<div class="footer-items">
+				<h2>Kateqoriyalar</h2>
+				<div class="border"></div>
+				<ul>
+					<a href=""><li>Komfort</li></a>
+					<a href=""><li>Ekonom</li></a>
+					<a href=""><li>Toy</li></a>
+					<a href=""><li>Yük</li></a>
+				</ul>
+			</div>
+-->
 			<div class="footer-items">
 				<h2>Əlaqə</h2>
 				<div class="border"></div>
@@ -418,10 +432,64 @@
 		</div>
 	
 	</div>
-
-
     </footer>
 
+
+    
+<div id="msg" class="container">
+   <div id="msg-top" style="padding:10px 0px;"><center><h5 style="color:white;">Bizə mesaj göndərin..</h5></center></div>
+   <div style="padding:5px;">
+   <form class="form-group" action="mailto:hasanov2019@gmail.com" method="GET">
+      <input type="text" name="Ad" placeholder="Adınız..." class="form-control" required /><br>
+      <input type="text" name="email" placeholder="Emailiniz..." class="form-control" required /><br>
+      <input type="phone" name="Nomre" placeholder="+994..." class="form-control" required /><br>
+      <input type="text" name="mesaj" placeholder="Mesajınız..." class="form-control" required /><br>
+      <input type="submit" value="Gonder"  style="width:100%; background-color: #0c1d3b;" class="btn btn-primary" name="">
+   </form></div>
+</div>
+
+<script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+</script>
+<script type="text/javascript">
+   $(document).ready(function(){
+      var c=1;
+      $("#msg-top").click(function(){
+         c++;
+         if(c%2==0)
+         $("#msg").animate({bottom:"0px"},1000);
+       else
+         $("#msg").animate({bottom:"-350px"},1000);
+      });
+   });
+</script>
+<!-- BootStrap Links -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- ***** -->
+<style type="text/css">
+   #msg{
+      padding:0;
+      margin:0;
+      position:fixed;
+      bottom:-350px;
+      right:10px;
+      background-color:#EBF5FB;
+      max-width:300px;
+      height:400px;
+      border:1px solid #0c1d3b;
+   }
+   #msg-top{
+      background-color:#0c1d3b;
+      height:50px;
+      width:100%;
+      margin-bottom:20px;
+      cursor:pointer;
+   }
+</style>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
